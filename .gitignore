@@ -1,0 +1,44 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies (not used in this project, but standard ignore)
+node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS / temp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (not used, but safe to ignore)
+dist/
+build/
+*.bundle.js
+*.bundle.css
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+.cache/
